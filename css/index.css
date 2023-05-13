@@ -1,0 +1,206 @@
+
+
+.fondo{
+    background-image: url(../imagenes/background.jpg);
+    background-size: cover;
+    
+}
+
+.bodyspace{
+  
+  padding:1% 10%;
+  position: relative;
+  
+}
+
+section{
+    position: relative;
+    width: 100%;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-collapse {
+  flex-direction: row-reverse;
+}
+
+.navbar{
+    width: 100%;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.navbar .logo{
+    position: relative;
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-collapse {
+  text-align: right;
+}
+
+.navbar-nav a{
+    display: inline-block;
+    color: #fff !important;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover{
+  background-color: #000000;
+  color: #fff;
+
+}
+
+.textbox a, .enviar {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: none !important;
+
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container-fluid {
+  display: inline-block;
+}
+
+.content .textbox{
+    position:relative;
+    max-width: 600px;
+
+    
+}
+
+.sec1 .textbox h2{
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.textbox p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sec1  .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    /* padding: 8px 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase; */
+
+}
+
+.content .imgbox{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+
+.sec3 p, .sec4 p{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+.sec1, .sec2, .sec3, .sec4 {
+  padding-bottom: 0px;
+}
+
+.pad-bot{
+  padding-bottom: 20px;
+}
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.card {
+  min-height: 100%;
+}
+
+.botonScrollTop{
+  position: absolute;
+  height: 45px;
+  width: 42px;
+  right: 30px;
+  bottom: 60px;
+  text-align: center;
+  line-height: 45px;
+  color: #000;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+#form2 label{
+  color: #fff;
+}
+
+#contacto {
+  padding-bottom: 0px !important;
+}
+
+footer{
+  background-color: black;
+  color: #fff;
+  opacity: 6;
+  padding: 3em 0em;
+}
+
+.Combos{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+
+}
